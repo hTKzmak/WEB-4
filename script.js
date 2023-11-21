@@ -44,8 +44,8 @@ class expenseCalculator extends HTMLElement {
         <main>
             <h1>Калькулятор расходов</h1>
                 <div>
-                    <input class="form-text" type="text" name="nameInput" id="nameInput" placeholder="Введите название расхода" value='123'>
-                    <input class="form-text" type="number" name="numInput" id="numInput" placeholder="Введите сумму расхода" value='123'>
+                    <input class="form-text" type="text" name="nameInput" id="nameInput" placeholder="Введите название расхода">
+                    <input class="form-text" type="number" name="numInput" id="numInput" placeholder="Введите сумму расхода">
                     <input class="btn btn-primary" type="submit" value="Submit" id="btn">
                 </div>
                 <p class="totalSumm">Итоговая сумма: ${this.total}</p>
